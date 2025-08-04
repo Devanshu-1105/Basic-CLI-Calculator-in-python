@@ -9,7 +9,7 @@
 
 This is a simple command-line calculator built in Python that performs basic arithmetic operations: Addition, Subtraction, Multiplication, and Division.
 
-It uses the `match-case` construct (introduced in Python 3.10) to mimic switch-case behavior, along with proper exception handling for input errors.
+It uses the `match-case` construct (introduced in Python 3.10) to mimic switch-case behavior and a alternate method using `if-else`, along with proper exception handling for input errors.
 
 ---
 
