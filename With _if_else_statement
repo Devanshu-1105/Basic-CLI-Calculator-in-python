@@ -1,0 +1,21 @@
+#Alternate method
+
+try:
+    a = int(input("Enter a number:"))
+     b = int(input("Enter a number:"))
+
+     print("What operation do you want to perform?\nAddition\nSubtraction\nDivison\nMultiplication")
+
+   operation = (input("Enter your choice:"))
+     if operation =="+":
+       print(f"The result is : {a + b}")
+     elif operation =="-":
+       print(f"The result is : {a - b}")
+     elif operation =="/":
+      print(f"The result is : {a / b}")
+     elif operation =="*":
+      print(f"The result is : {a * b}")
+     else:
+      print("There was an error!")
+ except:
+     print("Enter a Valid input!")
